@@ -1,0 +1,2486 @@
+!SESSION 2021-08-02 11:09:46.727 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-02 11:10:24.710
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-02 11:10:24.710
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@762f8ff6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30ed2a26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-02 11:10:33.762
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-08-02 11:10:36.235
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-08-02 11:14:27.839 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-02 11:15:37.471
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-02 11:15:37.471
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a522157,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@706c062e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-02 11:15:43.189
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:17:59.520
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:17:59.521
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@15920f49[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:17:59.547
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:17:59.823
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.751
+!MESSAGE Boot LS startup time from start to initialized: 9193ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.936
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RIpznpwrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.939
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.942
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.943
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.944
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.944
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RIpznpwr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.947
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.948
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:08.949
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:18:09.437
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-08-02 11:35:10.270
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:35:17.484
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:35:17.485
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:35:17.486
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:35:17.509
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:00.507
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:00.509
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:00.510
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:00.511
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:00.520
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-02 11:50:25.688
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:25.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:25.701
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:25.706
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:25.709
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:25.816
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:26.618
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:26.621
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:26.628
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:26.628
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:26.674
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-02 11:50:27.245
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-02 11:50:29.144
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-02 11:50:29.145
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-02 11:50:29.146
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY Activator 1 0 2021-08-02 11:50:29.320
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.337
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.342
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.348
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.349
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.381
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.628
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.634
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.639
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.639
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:50:29.730
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-02 11:50:30.061
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 11:50:31.009
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 11:50:31.192
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 11:50:32.056
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-08-02 11:51:42.343
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-08-02 11:51:42.343
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-08-02 11:51:42.343
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY Activator 1 0 2021-08-02 11:51:43.746
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:51:43.751
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:51:43.760
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:51:43.768
+!MESSAGE buffering callback sts4.classpath.RIpznpwr FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:51:43.769
+!MESSAGE executing callback sts4.classpath.RIpznpwr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 11:51:43.814
+!MESSAGE executing callback sts4.classpath.RIpznpwr SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-02 11:51:44.460
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:14.789
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:15.002
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:40.762
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:40.918
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:52.098
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:09:52.244
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:13:02.992
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-02 12:13:03.222
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-02 12:13:08.949
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-02 12:13:08.949
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73155124,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d3ca3cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2021-08-03 11:06:15.514 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 11:06:54.069
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 11:06:54.069
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33b2ba25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ad198c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:18.216
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:18.216
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1689af32[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:18.236
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:18.616
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-03 11:07:23.784
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:07:24.051
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 11:07:24.058
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2021-08-03 11:07:29.010
+!MESSAGE Exception while reading last build state for: P/FutbolWeb
+!STACK 1
+org.eclipse.core.runtime.CoreException: Error reading last build state for project FutbolWeb
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4161)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getLastBuiltState(JavaModelManager.java:2287)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.getLastState(JavaBuilder.java:449)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:189)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.loadModules(ClasspathJrt.java:132)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.<init>(ClasspathJrt.java:69)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:145)
+	at org.eclipse.jdt.internal.core.builder.State.readBinaryLocations(State.java:369)
+	at org.eclipse.jdt.internal.core.builder.State.read(State.java:260)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.readState(JavaBuilder.java:161)
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4153)
+	... 15 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 2 2021-08-03 11:07:29.011
+!MESSAGE Error reading last build state for project FutbolWeb
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.util.JrtFileSystem.walkModuleImage(org.eclipse.jdt.internal.compiler.util.JRTUtil$JrtFileVisitor, int)" because the return value of "org.eclipse.jdt.internal.compiler.util.JRTUtil.getJrtSystem(java.io.File, String)" is null
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.walkModuleImage(JRTUtil.java:173)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.loadModules(ClasspathJrt.java:132)
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrt.<init>(ClasspathJrt.java:69)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:145)
+	at org.eclipse.jdt.internal.core.builder.State.readBinaryLocations(State.java:369)
+	at org.eclipse.jdt.internal.core.builder.State.read(State.java:260)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.readState(JavaBuilder.java:161)
+	at org.eclipse.jdt.internal.core.JavaModelManager.readState(JavaModelManager.java:4153)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getLastBuiltState(JavaModelManager.java:2287)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.getLastState(JavaBuilder.java:449)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:189)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.107
+!MESSAGE Boot LS startup time from start to initialized: 26851ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.616
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SCHWjnXKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.624
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.630
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.632
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.633
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SCHWjnXK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.652
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.662
+!MESSAGE buffering callback sts4.classpath.SCHWjnXK FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:45.664
+!MESSAGE executing callback sts4.classpath.SCHWjnXK 1 batched events
+
+!ENTRY Activator 1 0 2021-08-03 11:07:46.016
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:07:47.000
+!MESSAGE executing callback sts4.classpath.SCHWjnXK SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 11:08:28.612
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 11:08:28.612
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@362a2806,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fcc4d13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-03 11:13:23.874
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:13:24.394
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:14:10.281
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:14:10.715
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-03 11:14:14.056
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-03 11:14:35.319
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:14:35.499
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:15:45.875
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:15:46.416
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:16:44.880
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:16:45.175
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:31:15.428
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:31:16.053
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:43:08.251
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:43:08.860
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:49:39.284
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:49:39.914
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-03 11:49:56.916
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-03 11:54:45.078
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:54:45.741
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:57:42.416
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 11:57:43.130
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:57:47.083
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SCHWjnXK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:57:47.085
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SCHWjnXK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:57:47.087
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 11:57:47.090
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SCHWjnXK => OK
+
+!ENTRY org.eclipse.ui 4 0 2021-08-03 11:57:47.849
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchWindow.getShell()" because "window" is null
+	at mnita.ansiconsole.AnsiConsoleActivator.showDialog(AnsiConsoleActivator.java:104)
+	at mnita.ansiconsole.AnsiConsoleActivator.access$0(AnsiConsoleActivator.java:101)
+	at mnita.ansiconsole.AnsiConsoleActivator$1.run(AnsiConsoleActivator.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2942)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.core.jobs 2 2 2021-08-03 11:57:52.185
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1
+!SESSION 2021-08-03 11:58:38.598 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 12:00:18.502
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 12:00:18.502
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36b761e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e27d97b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:30.655
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:30.655
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:30.663
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:30.719
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-03 12:00:34.013
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 12:00:34.122
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.412
+!MESSAGE Boot LS startup time from start to initialized: 10730ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.785
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EXlaqLVmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.795
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.800
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.802
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.804
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EXlaqLVm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.832
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.841
+!MESSAGE buffering callback sts4.classpath.EXlaqLVm FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:41.845
+!MESSAGE executing callback sts4.classpath.EXlaqLVm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:00:42.997
+!MESSAGE executing callback sts4.classpath.EXlaqLVm SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-03 12:01:40.560
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:01:43.081
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:01:46.719
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:03:01.748
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:03:02.487
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:03:04.011
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:03:05.198
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 12:03:29.842
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 12:03:29.842
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4219e848,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@179e0823,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-03 12:14:25.787
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-03 12:14:52.672
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:14:54.463
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:19:22.326
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:19:22.727
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:45:34.082
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 12:45:35.188
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:45:35.756
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:45:35.761
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 12:45:35.762
+!MESSAGE SpringBootLanguageServer exists!
+!SESSION 2021-08-03 19:06:12.724 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 19:06:34.696
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 19:06:34.696
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@67292fc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c1b4e07,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:45.435
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:45.436
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@41d10d87[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:45.458
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:45.859
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-03 19:06:48.847
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 19:06:48.898
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:53.732
+!MESSAGE Boot LS startup time from start to initialized: 8241ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.291
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yeytvowlisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.302
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.306
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.307
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.311
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yeytvowl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.320
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.379
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.478
+!MESSAGE buffering callback sts4.classpath.yeytvowl FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:54.485
+!MESSAGE executing callback sts4.classpath.yeytvowl 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-03 19:06:56.614
+!MESSAGE executing callback sts4.classpath.yeytvowl FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-03 19:06:56.616
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-08-03 19:11:31.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-03 19:11:31.240
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@357aa5cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1640a06f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-03 19:17:00.279
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:17:03.346
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:19:42.741
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:19:43.377
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:19:50.350
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-03 19:19:55.564
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-03 19:20:12.725
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:20:13.063
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:20:27.118
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:20:27.339
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:21:20.432
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:21:21.246
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:22:14.953
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:22:15.235
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:22:30.162
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:22:30.525
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:23:43.818
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:23:43.982
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:24:00.537
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:24:00.686
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:25:04.060
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:25:04.797
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-03 19:25:43.395
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-03 19:27:27.779
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:27:28.424
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:28:32.452
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:28:33.088
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:29:10.071
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:29:10.752
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:36:49.989
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:36:50.577
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:38:22.122
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:38:22.712
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:43:39.039
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:43:39.671
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:44:16.179
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:44:16.763
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:44:56.926
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:44:57.566
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:44:59.799
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:45:00.431
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:47:13.986
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:47:14.615
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-03 19:50:53.549
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-03 19:51:02.430
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-03 19:52:41.141
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 19:52:41.718
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:05:49.676
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:05:50.296
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:27:48.214
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:27:48.861
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:39:18.881
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-03 20:39:19.502
+!MESSAGE Has main method computation for project 'FutbolWeb'
+!SESSION 2021-08-04 10:36:23.633 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-04 10:36:37.008
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-08-04 10:36:57.594
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-04 10:36:57.594
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30a20fb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34f24a11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-04 10:37:10.524
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-04 10:37:21.088
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:37:28.134
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:34.390
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:34.393
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@14d3bee8[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:34.417
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:35.177
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-08-04 10:37:35.605
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-04 10:37:35.606
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c3a3d87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8611b3f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-04 10:37:40.499
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:37:43.110
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.358
+!MESSAGE Boot LS startup time from start to initialized: 13880ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.730
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NRCcQwKYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.737
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.743
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.745
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.746
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.747
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NRCcQwKY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.797
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.806
+!MESSAGE buffering callback sts4.classpath.NRCcQwKY FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:48.807
+!MESSAGE executing callback sts4.classpath.NRCcQwKY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:37:50.816
+!MESSAGE executing callback sts4.classpath.NRCcQwKY FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-08-04 10:37:50.818
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-08-04 10:38:04.052
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-04 10:39:02.055
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:39:03.040
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-04 10:39:08.219
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 10:39:20.024
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2021-08-04 10:45:46.433 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-04 10:46:04.465
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-08-04 10:46:08.191
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-04 10:46:08.191
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f6d36eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f5ac587,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-04 10:46:18.892
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-04 10:46:21.952
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:44.974
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:44.985
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e0996f4[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:44.993
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:45.049
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:50.845
+!MESSAGE Boot LS startup time from start to initialized: 5836ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.043
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qogQDFpwisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.048
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.053
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.054
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.057
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qogQDFpw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.073
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.081
+!MESSAGE buffering callback sts4.classpath.qogQDFpw FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.083
+!MESSAGE executing callback sts4.classpath.qogQDFpw 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 10:46:51.909
+!MESSAGE executing callback sts4.classpath.qogQDFpw SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-04 10:46:52.905
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-08-04 10:47:11.033
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:47:12.823
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:47:16.498
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-04 10:48:08.744
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-04 10:48:26.775
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:48:27.572
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 10:50:32.336
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-04 10:53:15.471
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:53:16.204
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 10:53:36.195
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-04 10:57:30.339
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:57:31.033
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:57:51.061
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:57:51.845
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:59:47.195
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 10:59:48.082
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:00:16.251
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:00:16.909
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 11:03:42.888
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-04 11:05:29.823
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:05:30.530
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:05:50.637
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:05:51.272
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:08:13.921
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:08:14.565
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:08:14.773
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:14:34.514
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:14:35.209
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:43.836
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qogQDFpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:43.838
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qogQDFpw
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:43.839
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:43.841
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qogQDFpw => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:46.290
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:46.292
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e0996f4[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:46.293
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.620
+!MESSAGE Boot LS startup time from start to initialized: 5323ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.801
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rdUEtpMnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.804
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.805
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.807
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.808
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.809
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rdUEtpMn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.827
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.835
+!MESSAGE buffering callback sts4.classpath.rdUEtpMn FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:51.837
+!MESSAGE executing callback sts4.classpath.rdUEtpMn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 11:14:52.530
+!MESSAGE executing callback sts4.classpath.rdUEtpMn SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 11:19:33.954
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-04 11:23:50.378
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:23:51.050
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:24:11.240
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:24:11.883
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:25:11.400
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:25:12.075
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:25:37.457
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:25:38.112
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:26:06.009
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:26:06.664
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:29:04.082
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:29:04.716
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:29:51.706
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:29:52.352
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:26.753
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:27.560
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:33.221
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:33.885
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:53.600
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:30:54.291
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:33:16.746
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:33:17.445
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:33:48.972
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:33:49.625
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:34:21.390
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:34:22.132
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:34:32.856
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:34:33.486
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-04 11:36:09.178
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-04 11:45:51.878
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:45:52.528
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:58:21.619
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 11:58:22.296
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:15:10.370
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:15:11.079
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:17:50.519
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:17:51.225
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:17:57.133
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:17:57.810
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:21:45.918
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:21:46.527
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:47:34.943
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rdUEtpMn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:47:34.944
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rdUEtpMn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:47:34.946
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:47:34.947
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rdUEtpMn => OK
+!SESSION 2021-08-04 12:48:08.595 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-04 12:48:19.484
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-04 12:48:19.484
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25172993,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f71ae7f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:30.064
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:30.064
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:30.080
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:30.134
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-04 12:48:33.678
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-04 12:48:33.905
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.029
+!MESSAGE Boot LS startup time from start to initialized: 12930ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.404
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xMpwyYKIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.411
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.416
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.418
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.419
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xMpwyYKI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.420
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.436
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.445
+!MESSAGE buffering callback sts4.classpath.xMpwyYKI FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:43.446
+!MESSAGE executing callback sts4.classpath.xMpwyYKI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:48:44.199
+!MESSAGE executing callback sts4.classpath.xMpwyYKI SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-08-04 12:49:22.422
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-04 12:51:10.720
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:12.757
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:13.661
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:15.225
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:15.934
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:20.389
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:20.760
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:23.593
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:23.858
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:27.112
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:51:27.357
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:52:09.329
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:52:09.728
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-04 12:52:24.026
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-04 12:52:24.026
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c30848a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2161cc6f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:52:31.357
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xMpwyYKI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:52:31.358
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xMpwyYKI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:52:31.360
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:52:31.361
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xMpwyYKI => OK
+
+!ENTRY Activator 1 0 2021-08-04 12:53:26.322
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:53:26.944
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:55:51.347
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 12:55:51.614
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:43.523
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:43.524
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:43.525
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.464
+!MESSAGE Boot LS startup time from start to initialized: 4935ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.676
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oKKRfLaZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.678
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.680
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.682
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.683
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.684
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oKKRfLaZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.701
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.709
+!MESSAGE buffering callback sts4.classpath.oKKRfLaZ FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:48.710
+!MESSAGE executing callback sts4.classpath.oKKRfLaZ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:56:49.371
+!MESSAGE executing callback sts4.classpath.oKKRfLaZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:35.091
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oKKRfLaZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:35.093
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oKKRfLaZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:35.094
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:35.096
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oKKRfLaZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:44.194
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:44.196
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:44.197
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:48.883
+!MESSAGE Boot LS startup time from start to initialized: 4683ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.065
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HYqOWxtEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.067
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.068
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.070
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.070
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.071
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HYqOWxtE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.082
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.091
+!MESSAGE buffering callback sts4.classpath.HYqOWxtE FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.093
+!MESSAGE executing callback sts4.classpath.HYqOWxtE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 12:57:49.758
+!MESSAGE executing callback sts4.classpath.HYqOWxtE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:15.056
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:15.059
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:15.060
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-04 21:45:25.082
+!MESSAGE LanguageServer not initialized after 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:704)
+	at org.eclipse.lsp4e.DocumentContentSynchronizer.documentSaved(DocumentContentSynchronizer.java:159)
+	at org.eclipse.lsp4e.LanguageServerWrapper$1.dirtyStateChanged(LanguageServerWrapper.java:144)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager$3.run(TextFileBufferManager.java:670)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.fireDirtyStateChanged(TextFileBufferManager.java:667)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:324)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:516)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:127)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:811)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:405)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1418)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$3.execute(CompilationUnitDocumentProvider.java:1495)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:133)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:764)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5007)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1262)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1316)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAll(WorkbenchPage.java:3615)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAllEditors(WorkbenchPage.java:3593)
+	at org.eclipse.ui.internal.handlers.SaveAllHandler.execute(SaveAllHandler.java:52)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:25.091
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:25.093
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:25.093
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.ui 2 0 2021-08-04 21:45:40.532
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: L/FutbolWeb/src/main/java/com/example/demo/models/service/PartidoServiceImpl.java, does not match outer scope rule: L/FutbolWeb/src/main/java/com/example/demo/controllers/PartidoController.java
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:66)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.validateState(TextFileDocumentProvider.java:1037)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.validateState(AbstractTextEditor.java:4906)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1309)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:820)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:804)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:641)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:620)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:562)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:496)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4201)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3232)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:126)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:100)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.isCanceled(SubMonitor.java:235)
+	at org.eclipse.core.runtime.SubMonitor.isCanceled(SubMonitor.java:581)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.isCanceled(ProgressMonitorWrapper.java:114)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.isCanceled(SubMonitor.java:235)
+	at org.eclipse.core.runtime.SubMonitor.isCanceled(SubMonitor.java:581)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.isCanceled(JavaModelOperation.java:553)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.checkCanceled(JavaModelOperation.java:236)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.worked(JavaModelOperation.java:904)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:170)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:811)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:405)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1418)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$3.execute(CompilationUnitDocumentProvider.java:1495)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:133)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:764)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5007)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1262)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1316)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7151)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAll(WorkbenchPage.java:3615)
+	at org.eclipse.ui.internal.WorkbenchPage.saveAllEditors(WorkbenchPage.java:3593)
+	at org.eclipse.ui.internal.handlers.SaveAllHandler.execute(SaveAllHandler.java:52)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:389)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:142)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-08-04 21:45:40.667
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:41.512
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:41.513
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@26d5115b[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-04 21:45:41.514
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY Activator 1 0 2021-08-04 21:45:43.962
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 21:45:44.928
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-04 21:45:46.825
+!MESSAGE Has main method computation for project 'FutbolWeb'
+!SESSION 2021-08-06 12:04:00.300 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-06 12:04:24.586
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-06 12:04:24.586
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36b761e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e27d97b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:37.270
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:37.270
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@31733c7a[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:37.290
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:37.510
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-06 12:04:40.068
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-06 12:04:40.269
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:49.960
+!MESSAGE Boot LS startup time from start to initialized: 12660ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.144
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yaCGaUiIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.149
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.152
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.153
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.154
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yaCGaUiI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.164
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.169
+!MESSAGE buffering callback sts4.classpath.yaCGaUiI FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.170
+!MESSAGE executing callback sts4.classpath.yaCGaUiI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 12:04:50.766
+!MESSAGE executing callback sts4.classpath.yaCGaUiI SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-06 12:05:28.760
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:05:35.611
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-06 12:05:51.082
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-06 12:13:20.130
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:13:20.793
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:13:46.001
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:13:46.628
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:14:26.618
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:14:27.292
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:14:56.620
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:14:57.239
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:14:57.343
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:17:46.706
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:17:47.380
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:17:55.035
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:17:55.684
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:18:25.141
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:18:25.792
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:31:58.903
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:31:59.210
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:02.006
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:02.232
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:05.339
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:05.482
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:09.394
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:09.549
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:12.325
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:12.565
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:15.582
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:32:15.744
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-06 12:34:23.988
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-06 12:34:34.221
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-06 12:34:34.820
+!MESSAGE Has main method computation for project 'FutbolWeb'
