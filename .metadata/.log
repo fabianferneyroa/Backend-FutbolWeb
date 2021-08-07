@@ -3339,3 +3339,9 @@ java.lang.NullPointerException: Cannot invoke "org.springframework.ide.eclipse.b
 
 !ENTRY Activator 1 0 2021-08-07 10:28:32.413
 !MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 10:33:30.374
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 10:33:40.413
+!MESSAGE Has main method computation for project 'FutbolWeb'
