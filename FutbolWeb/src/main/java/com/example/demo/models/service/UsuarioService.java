@@ -13,4 +13,6 @@ public interface UsuarioService {
 	
 	public void deleteById(Integer id);
 	
+	public Integer validarUsuario (String usuario, String contraseña);
+	
 }

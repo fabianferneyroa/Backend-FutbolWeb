@@ -3,6 +3,7 @@ package com.example.demo.controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.models.entity.Usuario;
 import com.example.demo.models.service.UsuarioService;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/Usuario")
 public class UsuarioController {
@@ -36,8 +38,8 @@ public class UsuarioController {
 		
 	}
 	
-
-	@PostMapping
+	
+	@PostMapping("/auth/register")
 	public Usuario registrarUsuario(@RequestBody Usuario users) {
 		
 		return usuarioService.save(users);
@@ -65,5 +67,12 @@ public class UsuarioController {
 		
 	}
 	
-
+	@GetMapping("/validarUsuario/{usuario}/{contraseña}")
+	public Integer validarUsuario(@PathVariable String usuario, @PathVariable String contraseña) {
+	
+		
+		return usuarioService.validarUsuario(usuario, contraseña);
+		
+	}
+	
 }

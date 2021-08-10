@@ -38,4 +38,11 @@ public class UsuarioServiceImpl implements UsuarioService {
 
 	}
 
+	@Override
+	public Integer validarUsuario(String usuario, String contraseña) {
+		
+		return usuarioRepository.validarUsuario(usuario, contraseña);
+		
+	}
+
 }
