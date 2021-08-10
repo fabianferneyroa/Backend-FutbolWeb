@@ -3345,3 +3345,826 @@ java.lang.NullPointerException: Cannot invoke "org.springframework.ide.eclipse.b
 
 !ENTRY Activator 1 0 2021-08-07 10:33:40.413
 !MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.equinox.security 1 0 2021-08-07 10:36:22.446
+!MESSAGE New keyring password generated. 
+
+!ENTRY Activator 1 0 2021-08-07 10:38:01.572
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 10:38:30.110
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 10:58:44.273
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 10:58:44.419
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 11:00:04.722
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 11:00:04.903
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 11:01:04.815
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-07 11:01:04.947
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 4 0 2021-08-08 23:01:26.878
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.ui.launch.LaunchList.getLast()" because "this.launches" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.update(AbstractLaunchToolbarPulldown.java:112)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.access$4(AbstractLaunchToolbarPulldown.java:110)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$3.run(AbstractLaunchToolbarPulldown.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3681)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:321)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3226)
+	at org.eclipse.swt.internal.win32.OS.ShowWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1267)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2041)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1273)
+	at org.eclipse.jface.window.Window.open(Window.java:795)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.open(ProgressMonitorDialog.java:631)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.aboutToRun(ProgressMonitorDialog.java:540)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:465)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2942)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4201)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3232)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3621)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SESSION 2021-08-09 10:30:47.979 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-09 10:33:31.829
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-08-09 10:33:45.511
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-09 10:33:45.511
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7857cb1d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7646c9f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:33:57.911
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:33:57.911
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6bbbf0e6[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:33:57.927
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:33:58.115
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-09 10:34:00.918
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-09 10:34:01.107
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\froap'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:09.986
+!MESSAGE Boot LS startup time from start to initialized: 12050ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.173
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oeABkVyoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.178
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.181
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.182
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.182
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.183
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oeABkVyo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.214
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.219
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.220
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 10:34:10.717
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 12:30:15.384
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 12:41:28.551
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 12:41:35.019
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:08:46.213
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:08:47.047
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:08:50.245
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:08:50.849
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.ui 2 2 2021-08-09 14:13:46.396
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-08-09 14:14:23.395
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:14:24.031
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:14:47.682
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 14:14:48.670
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:52:59.703
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:00.455
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:11.182
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:11.833
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:12.575
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:30.130
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:30.780
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:53:31.468
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:58:31.403
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 18:58:31.987
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:00:40.177
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:00:40.799
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:01:41.625
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:01:42.247
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:02:58.006
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:02:58.630
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:04:12.519
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:04:13.142
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 19:05:29.709
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 19:05:51.177
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:05:51.832
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:06:20.661
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 19:06:21.278
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.jface 2 0 2021-08-09 21:57:33.370
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-09 21:57:33.371
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4098500a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bcc7901,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 21:59:57.254
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 22:00:40.244
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:00:42.772
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:00:52.616
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:10.190
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:13.269
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:21.474
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:22.387
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:53.359
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:54.218
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:55.145
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:55.732
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:56.128
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:01:57.504
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:10.794
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:11.384
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:11.606
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:11.979
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:12.579
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:15.858
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:20.540
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:21.258
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:23.920
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:39.456
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:45.368
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:45.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-09 22:02:46.441
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:46.447
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:46.500
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:46.549
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY Activator 1 0 2021-08-09 22:02:47.366
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:47.416
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:02:48.209
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:02:51.352
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:51.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:51.360
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:51.366
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:51.366
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:02:51.697
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:02:51.710
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:03:14.399
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:03:15.040
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:09:07.599
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:09:10.082
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:10.089
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:10.121
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:10.129
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:10.130
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:10.210
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:09:10.773
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:09:11.510
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:09:33.051
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:33.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:33.074
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:33.080
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:33.080
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:09:33.151
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:09:33.282
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:41.377
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:45.749
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:46.211
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:46.491
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:47.133
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:47.728
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:48.125
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:48.319
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:48.551
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:49.449
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:49.770
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:58.720
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:15:59.261
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:01.113
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:01.477
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:01.728
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:01.953
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:02.295
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:02.724
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:02.927
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:03.209
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:03.655
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:06.855
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:12.935
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:14.755
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:14.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:14.836
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:14.852
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:14.854
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:15.143
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:16:15.981
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:16.300
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:18.689
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:18.690
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:18.699
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:18.706
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:18.706
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:16:18.756
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:16:18.979
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:20.756
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:21.341
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:16:21.506
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 22:17:21.554
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 22:20:14.389
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:20:14.659
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:20:57.639
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:20:58.258
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:24:26.034
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:24:26.134
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:24:28.452
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:28.453
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:28.463
+!MESSAGE classpath=102 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:28.469
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 102
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:28.470
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:28.701
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:24:29.175
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:24:29.606
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:24:30.834
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:30.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:30.845
+!MESSAGE classpath=102 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:30.851
+!MESSAGE buffering callback sts4.classpath.oeABkVyo FutbolWeb false 102
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:30.852
+!MESSAGE executing callback sts4.classpath.oeABkVyo 1 batched events
+
+!ENTRY Activator 1 0 2021-08-09 22:24:31.128
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-09 22:24:31.142
+!MESSAGE executing callback sts4.classpath.oeABkVyo SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-09 22:25:18.683
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:25:19.267
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 22:25:19.591
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 22:35:01.959
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:35:02.618
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:38:22.606
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:38:23.292
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:40:35.390
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 22:40:36.120
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:13:12.944
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:13:13.649
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:13:51.805
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:13:52.486
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:14:36.773
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:14:37.448
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:19:45.675
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:19:46.406
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:29:35.851
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:29:36.489
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:29:43.615
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:29:44.249
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 23:31:58.636
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-09 23:35:06.686
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-08-09 23:35:57.368
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:35:58.041
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:37:54.676
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:37:55.354
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:38:57.446
+!MESSAGE Has main method computation for project 'FutbolWeb'
+
+!ENTRY Activator 1 0 2021-08-09 23:38:58.074
+!MESSAGE Has main method computation for project 'FutbolWeb'
