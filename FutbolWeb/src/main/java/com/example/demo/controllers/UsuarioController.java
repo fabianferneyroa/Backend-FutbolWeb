@@ -145,6 +145,16 @@ public class UsuarioController {
 		
 		
 	}
+	
+	@GetMapping("/nombreUsuario/{idUsuario}")
+	public String nombreUsuario(@PathVariable Integer idUsuario) {
+		
+		Usuario userbd = usuarioService.findById(idUsuario);
+		
+		String usuario = userbd.getUsuario();
+		
+		return usuario;
+	}
 
 	
 }

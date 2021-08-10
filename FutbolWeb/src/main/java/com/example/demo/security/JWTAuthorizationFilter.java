@@ -56,8 +56,7 @@ public class JWTAuthorizationFilter extends OncePerRequestFilter {
 	}
 
 	/**
-	 * Metodo para autenticarnos dentro del flujo de Spring
-	 * 
+	 *Metodo para autenticarnos dentro del flujo de Spring
 	 * @param claims
 	 */
 	private void setUpSpringAuthentication(Claims claims) {
