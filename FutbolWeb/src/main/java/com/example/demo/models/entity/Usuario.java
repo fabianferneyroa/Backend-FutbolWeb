@@ -20,6 +20,7 @@ public class Usuario implements Serializable {
 	private String usuario;
 	@Column(name = "contraseña_Usuario")
 	private String contraseña;
+	private String token;
 
 	public Usuario() {
 	}
@@ -70,6 +71,14 @@ public class Usuario implements Serializable {
 
 	public void setContraseña(String contraseña) {
 		this.contraseña = contraseña;
+	}
+	
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
 	}
 	
 	/**

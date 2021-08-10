@@ -1,8 +1,15 @@
 package com.example.demo.controllers;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.DisabledException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,10 +18,19 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.stream.Collectors;
+
+import javax.servlet.http.HttpServletResponse;
 
 import com.example.demo.models.entity.Usuario;
 import com.example.demo.models.service.UsuarioService;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -74,5 +90,61 @@ public class UsuarioController {
 		return usuarioService.validarUsuario(usuario, contraseña);
 		
 	}
+	
+	
+	@PostMapping("/login")
+	public Usuario login(@RequestBody Usuario user) {
+		
+		Integer userID = usuarioService.validarUsuario(user.getUsuario(), user.getContraseña());
+		
+		System.out.print(userID);
+		
+		if(userID!=null) {
+			String token = getJWTToken(user.getUsuario());
+			Usuario user2 = new Usuario();
+			user2.setUsuario(user.getUsuario());
+			user2.setToken(token);		
+			return user2;
+			
+		}
+		else {
+			return null;
+		}
+		
+		
+		
+	}
+
+	private String getJWTToken(String username) {
+		String secretKey = "mySecretKey";
+		List<GrantedAuthority> grantedAuthorities = AuthorityUtils
+				.commaSeparatedStringToAuthorityList("ROLE_USER");
+		
+		String token = Jwts
+				.builder()
+				.setId("softtekJWT")
+				.setSubject(username)
+				.claim("authorities",
+						grantedAuthorities.stream()
+								.map(GrantedAuthority::getAuthority)
+								.collect(Collectors.toList()))
+				.setIssuedAt(new Date(System.currentTimeMillis()))
+				.setExpiration(new Date(System.currentTimeMillis() + 600000))
+				.signWith(SignatureAlgorithm.HS512,
+						secretKey.getBytes()).compact();
+
+		return "Bearer " + token;
+	}
+	
+	@PostMapping("/login2")
+	public String login2() {
+		
+	String hola = "Hola Mundo";	
+		
+		return hola;
+		
+		
+	}
+
 	
 }
