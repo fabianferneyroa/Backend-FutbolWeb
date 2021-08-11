@@ -32,9 +32,10 @@ import com.example.demo.models.service.UsuarioService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
-@CrossOrigin(origins = "*")
+
 @RestController
 @RequestMapping("/api/Usuario")
+@CrossOrigin(origins =  "http://localhost:3000")
 public class UsuarioController {
 	
 	@Autowired
@@ -91,20 +92,17 @@ public class UsuarioController {
 		
 	}
 	
-	
 	@PostMapping("/login")
 	public Usuario login(@RequestBody Usuario user) {
 		
 		Integer userID = usuarioService.validarUsuario(user.getUsuario(), user.getContraseña());
-		
-		System.out.print(userID);
+		Usuario usuario = usuarioService.findById(userID);
+		System.out.print(usuario);
 		
 		if(userID!=null) {
 			String token = getJWTToken(user.getUsuario());
-			Usuario user2 = new Usuario();
-			user2.setUsuario(user.getUsuario());
-			user2.setToken(token);		
-			return user2;
+			usuario.setToken(token);
+			return usuario;
 			
 		}
 		else {
@@ -129,7 +127,7 @@ public class UsuarioController {
 								.map(GrantedAuthority::getAuthority)
 								.collect(Collectors.toList()))
 				.setIssuedAt(new Date(System.currentTimeMillis()))
-				.setExpiration(new Date(System.currentTimeMillis() + 600000))
+				.setExpiration(new Date(System.currentTimeMillis() + 6000000))
 				.signWith(SignatureAlgorithm.HS512,
 						secretKey.getBytes()).compact();
 
@@ -155,6 +153,8 @@ public class UsuarioController {
 		
 		return usuario;
 	}
+	
+	
 
 	
 }

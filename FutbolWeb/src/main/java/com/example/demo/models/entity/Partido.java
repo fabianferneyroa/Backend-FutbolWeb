@@ -12,12 +12,15 @@ public class Partido  implements Serializable{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_Partido")
 	private Integer idPartido;
-	@Column(name = "id_Usuario")
-	private Integer idUsuario;
-	@Column(name = "equipo_Local")
-	private Integer equipoLocal;
-	@Column(name = "equipo_Visitante")
-	private Integer equipoVisitante;
+	@OneToOne
+	@JoinColumn(name = "id_Usuario")
+	private Usuario idUsuario;
+	@OneToOne
+	@JoinColumn(name = "equipo_Local")
+	private Equipo equipoLocal;
+	@OneToOne
+	@JoinColumn(name = "equipo_Visitante")
+	private Equipo equipoVisitante;
 	@Column(name = "fecha_Partido")
 	private Date fechaPartido;
 	@Column(name = "goles_local")
@@ -28,17 +31,6 @@ public class Partido  implements Serializable{
 	public Partido() {
 	}
 
-	public Partido(Integer idPartido, Integer idUsuario, Integer equipoLocal, Integer equipoVisitante, Date fechaPartido,
-			Integer golesEquipoLocal, Integer golesEquipoVisitante) {
-		this.idPartido = idPartido;
-		this.idUsuario = idUsuario;
-		this.equipoLocal = equipoLocal;
-		this.equipoVisitante = equipoVisitante;
-		this.fechaPartido = fechaPartido;
-		this.golesEquipoLocal = golesEquipoLocal;
-		this.golesEquipoVisitante = golesEquipoVisitante;
-	}
-
 	public Integer getIdPartido() {
 		return idPartido;
 	}
@@ -46,28 +38,32 @@ public class Partido  implements Serializable{
 	public void setIdPartido(Integer idPartido) {
 		this.idPartido = idPartido;
 	}
+	
+	public void setIdPartido(Equipo equipo) {
+		this.equipoLocal = equipo;
+	}
 
-	public Integer getIdUsuario() {
+	public Usuario getIdUsuario() {
 		return idUsuario;
 	}
 
-	public void setIdUsuario(Integer idUsuario) {
+	public void setIdUsuario(Usuario idUsuario) {
 		this.idUsuario = idUsuario;
 	}
 
-	public Integer getEquipoLocal() {
+	public Equipo getEquipoLocal() {
 		return equipoLocal;
 	}
 
-	public void setEquipoLocal(Integer equipoLocal) {
+	public void setEquipoLocal(Equipo equipoLocal) {
 		this.equipoLocal = equipoLocal;
 	}
 
-	public Integer getEquipoVisitante() {
+	public Equipo getEquipoVisitante() {
 		return equipoVisitante;
 	}
 
-	public void setEquipoVisitante(Integer equipoVisitante) {
+	public void setEquipoVisitante(Equipo equipoVisitante) {
 		this.equipoVisitante = equipoVisitante;
 	}
 

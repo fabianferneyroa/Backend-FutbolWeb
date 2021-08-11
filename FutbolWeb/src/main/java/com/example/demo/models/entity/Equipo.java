@@ -17,6 +17,10 @@ public class Equipo implements Serializable {
 
 	public Equipo() {
 	}
+	
+	public Equipo(Integer idEquipo) {
+		this.idEqupo = idEquipo;
+	}
 
 	public Equipo(Integer idEqupo, String nombreEquipo) {
 		this.idEqupo = idEqupo;

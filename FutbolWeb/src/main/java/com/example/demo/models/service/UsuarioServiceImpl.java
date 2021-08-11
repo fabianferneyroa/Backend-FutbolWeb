@@ -12,7 +12,7 @@ public class UsuarioServiceImpl implements UsuarioService {
 
 	@Autowired
 	private UsuariosRepository usuarioRepository;
-	
+
 	@Override
 	public Usuario findById(Integer id) {
 		// TODO Auto-generated method stub
@@ -40,9 +40,16 @@ public class UsuarioServiceImpl implements UsuarioService {
 
 	@Override
 	public Integer validarUsuario(String usuario, String contraseña) {
-		
+
 		return usuarioRepository.validarUsuario(usuario, contraseña);
-		
+
 	}
+
+	@Override
+	public Integer obtenerIdUsuario(String usuario) {
+		
+		return usuarioRepository.obtenerIdUsuario(usuario);
+	}
+	
 
 }

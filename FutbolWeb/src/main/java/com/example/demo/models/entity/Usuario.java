@@ -4,8 +4,11 @@ import java.io.Serializable;
 
 import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
-@Table(name = "usuarios")
+@Table(name="usuarios")
 public class Usuario implements Serializable {
 
 	@Id
@@ -20,17 +23,23 @@ public class Usuario implements Serializable {
 	private String usuario;
 	@Column(name = "contraseña_Usuario")
 	private String contraseña;
-	private String token;
+	@Transient
+	public String token;
 
 	public Usuario() {
 	}
 
-	public Usuario(int idUsuario, String nombreUsuario, String correoUsuario, String usuario, String contraseña) {
+	public Usuario(Integer userID) {
+		this.idUsuario = userID;
+	}
+	
+	public Usuario(int idUsuario, String nombreUsuario, String correoUsuario, String usuario, String contraseña, String token) {
 		this.idUsuario = idUsuario;
 		this.nombreUsuario = nombreUsuario;
 		this.correoUsuario = correoUsuario;
 		this.usuario = usuario;
 		this.contraseña = contraseña;
+		this.token = token;
 	}
 
 	public Integer getIdUsuario() {

@@ -15,4 +15,5 @@ public interface UsuarioService {
 	
 	public Integer validarUsuario (String usuario, String contraseña);
 	
+	public Integer obtenerIdUsuario(String usuario);
 }
